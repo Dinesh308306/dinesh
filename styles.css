@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 2rem;
+}
+
+header .nav-links {
+    list-style-type: none;
+}
+
+header .nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+#home {
+    background-color: #1a73e8;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+#home h2 {
+    font-size: 3rem;
+}
+
+#home p {
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 40px;
+    margin: 20px;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#projects .projects-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#projects .project {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+#skills ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+#skills li {
+    font-size: 1.2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    font-size: 1.1rem;
+}
+
+form input, form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #1a73e8;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
